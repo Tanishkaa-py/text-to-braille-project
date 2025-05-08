@@ -148,13 +148,11 @@ model = models.Sequential([
 The trained model was evaluated using:
 
 - ✅ **Accuracy Score**
-- 📉 **Confusion Matrix**
 - 📃 **Classification Report**
 
 ```python
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import classification_report
 
-print(confusion_matrix(y_true, y_pred))
 print(classification_report(y_true, y_pred))
 ```
 
@@ -165,7 +163,6 @@ These metrics helped validate the model's ability to correctly classify Braille 
 
 ## 👨‍💻 Author
 Tanishka Jain  
-2025 | Final Project Submission  
-Generative AI + Embedded Systems
+2025 
 
 ---
